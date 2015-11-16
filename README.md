@@ -7,6 +7,7 @@ To cross-compile for linux run: `make linux`
 For the RaspberryPi run: `make pi` or `make pi2`
 
 ## mibob config
+`mibob.config`
 ```
 {
 	"bridge" : "192.168.2.69"

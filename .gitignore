@@ -8,6 +8,8 @@ _obj
 _test
 
 # Architecture specific extensions/prefixes
+mibob
+mibob.config
 *.[568vq]
 [568vq].out
 

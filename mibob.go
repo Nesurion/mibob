@@ -42,12 +42,12 @@ func init() {
 	}
 
 	group := limitless.LimitlessGroup{
-		Id:         1,
+		Id:         0,
 		Controller: controller,
 	}
 	controller.Groups = []limitless.LimitlessGroup{group}
 
-	controller.AllOn()
+	controller.Groups[0].On()
 }
 
 func parseRGB() colorful.Color {
